@@ -222,7 +222,8 @@ $body = [regex]::Replace($body, "!\[\[([^\]\|]+?)(\|([^\]]+))?\]\]", {
   Copy-Item -Force $found $destPath
   $copiedImages.Add($destName) | Out-Null
 
-  $publicPath = ("/" + ($AssetsSubdir -replace "\\", "/").Trim("/") + "/" + $destName)
+  $encodedDestName = [System.Uri]::EscapeDataString($destName)
+  $publicPath = ("/" + ($AssetsSubdir -replace "\\", "/").Trim("/") + "/" + $encodedDestName)
   return "![$alt]($publicPath)"
 })
 
