@@ -1,0 +1,10 @@
+title: "我的博客"
+email: ""
+description: "这是一个基于 GitHub Pages + Jekyll 的个人博客。"
+baseurl: ""
+url: "https://yzysimpleabs.github.io"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
