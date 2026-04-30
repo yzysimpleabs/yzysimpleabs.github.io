@@ -70,7 +70,7 @@ function Get-FrontMatter([string]$content) {
 }
 
 function Slugify([string]$text) {
-  $t = ($text ?? "").Trim()
+  $t = ("" + $text).Trim()
   $t = $t -replace "[\s_]+", "-"
   $t = $t -replace "[^\p{L}\p{N}\-]+", "-"
   $t = $t -replace "-{2,}", "-"
@@ -82,7 +82,7 @@ function Slugify([string]$text) {
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 $postsDir = Join-Path $repoRoot "_posts"
 if (-not (Test-Path $postsDir)) {
-  throw "找不到 _posts 目录：$postsDir"
+  throw "Cannot find _posts directory: $postsDir"
 }
 
 $sourcePath = (Resolve-Path $Source).Path
@@ -153,20 +153,20 @@ Get-ChildItem $postsDir -Filter "*.md" | ForEach-Object {
     $d = $Matches[3]
     $s = $Matches[4]
     $url = "/$y/$m/$d/$s/"
-    $postsBySlug[Normalize-Text $s] = $url
+    $postsBySlug[(Normalize-Text $s)] = $url
     $text = [System.IO.File]::ReadAllText($file, (New-Object System.Text.UTF8Encoding($true)))
     $fm2 = Get-FrontMatter $text
     if ($fm2.Data.ContainsKey("title")) {
       $t = [string]$fm2.Data["title"]
       if ($t.Trim() -ne "") {
-        $postsByTitle[Normalize-Text $t] = $url
+        $postsByTitle[(Normalize-Text $t)] = $url
       }
     }
   }
 }
 
 function Resolve-WikilinkUrl([string]$target) {
-  $t = ($target ?? "").Trim()
+  $t = ("" + $target).Trim()
   if ($t -match "\.md$") { $t = $t.Substring(0, $t.Length - 3) }
   $t = ($t -split "#")[0].Trim()
   $k = Normalize-Text $t
@@ -265,11 +265,11 @@ $outFile = Join-Path $postsDir ("{0}-{1}.md" -f $dateOnly, $Slug)
 $output = ($yamlLines -join "`n") + "`n`n" + $body.Trim() + "`n"
 [System.IO.File]::WriteAllText($outFile, $output, (New-Object System.Text.UTF8Encoding($false)))
 
-Write-Host ("已生成文章：{0}" -f $outFile)
+Write-Host ('Generated post: {0}' -f $outFile)
 if ($copiedImages.Count -gt 0) {
-  Write-Host ("已复制图片：{0}" -f ($copiedImages.Count))
+  Write-Host ('Copied images: {0}' -f ($copiedImages.Count))
 }
 if ($unresolved.Count -gt 0) {
-  Write-Host "未解析的 [[链接]]（未找到对应已发布文章）："
-  foreach ($u in ($unresolved | Sort-Object)) { Write-Host ("- {0}" -f $u) }
+  Write-Host 'Unresolved [[links]] (no matching published posts found):'
+  foreach ($u in ($unresolved | Sort-Object)) { Write-Host ('- {0}' -f $u) }
 }
