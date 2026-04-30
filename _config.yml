@@ -14,5 +14,8 @@ permalink: /:year/:month/:day/:title/
 markdown: kramdown
 highlighter: rouge
 
+kramdown:
+  input: kramdown
+
 plugins:
   - jekyll-feed
