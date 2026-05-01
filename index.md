@@ -1,11 +1,34 @@
 ---
 layout: page
-title: "首页"
+title: ""
 ---
 
-# Zhiyuan Yang
+# [一句话身份介绍待填写]
 
+[一段个人简介待填写。这里用于介绍你是谁、你目前的角色、你的背景，以及你主要关注的问题。]
 
-- GitHub: [github.com/yzysimpleabs](https://github.com/yzysimpleabs)
+---
 
-后续如果需要，我会继续把这一页整理成更像正式个人主页/简历页的结构。
+## Experience
+
+- [经历模块待填写]
+- [可放教育背景 / 工作经历 / 项目经历]
+- [可按时间顺序或主题顺序组织]
+
+## Focus
+
+- [关注方向待填写]
+- [可放产品 / AI / 技术 / 商业 / 用户研究等]
+- [也可以改成 Skills / Interests / Research 等更适合你的命名]
+
+## Contact
+
+- GitHub: [待填写]
+- Email: [待填写]
+- LinkedIn: [待填写]
+- 其他链接: [待填写]
+
+## Resume
+
+- [简历链接待填写]
+- [可放在线简历 / PDF / Notion / 飞书文档等]

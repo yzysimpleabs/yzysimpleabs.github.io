@@ -24,6 +24,7 @@ author:
 plainwhite:
   name: "Zhiyuan Yang"
   tagline: ""
+  portfolio_image:
   date_format: "%Y-%m-%d"
   html_lang: "zh-CN"
   search: false
@@ -32,8 +33,6 @@ plainwhite:
     - home
     - page
     - post
-  social_links:
-    github: yzysimpleabs
 
 plugins:
   - jekyll-remote-theme
