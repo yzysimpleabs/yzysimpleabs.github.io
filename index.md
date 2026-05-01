@@ -41,6 +41,7 @@ Designed and developed online education products for postgraduate entrance exam 
 
 MAU +37% and LTV +20%.
 
+---
 
 # Focus
 
