@@ -19,11 +19,11 @@ kramdown:
 
 author:
   name: "Zhiyuan Yang"
-  bio: "CS 背景产品经理。"
+  bio: ""
 
 plainwhite:
   name: "Zhiyuan Yang"
-  tagline: "CS 背景产品经理"
+  tagline: ""
   date_format: "%Y-%m-%d"
   html_lang: "zh-CN"
   search: false
