@@ -19,7 +19,7 @@ kramdown:
 
 author:
   name: "Zhiyuan Yang"
-  bio: "产品经理，产品工程师，关注AI和商业模式\n justiceyan929@gmail.com"
+  bio: "产品经理，产品工程师，关注 AI 和商业模式"
 
 plainwhite:
   name: "Zhiyuan Yang"
@@ -33,6 +33,10 @@ plainwhite:
     - home
     - page
     - post
+  social_links:
+    github: yzysimpleabs
+    linkedIn: in/william-yang-758936304
+    email: justiceyan929@gmail.com
 
 plugins:
   - jekyll-remote-theme

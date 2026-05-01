@@ -3,32 +3,62 @@ layout: page
 title: ""
 ---
 
-## About
+<div class="page-narrow">
 
-I am an AI Product Manager. My focus areas include AI products themselves, AI Agents, Large Language Models, business models, and internet product strategy. I possess experience in the entire product lifecycle—from design and development to launch—as well as in successfully establishing and validating commercial closed loops across sectors such as online education, AI productivity tools, and AI gaming.
+# About
+
+I am an AI Product Manager with a CS background. My work sits at the intersection of AI products, agent systems, business models, and internet product strategy, with experience across product design, launch, growth, and commercial validation.
 
 ---
 
-## Experience
+# Experience
 
-- [经历模块待填写]
-- [可放教育背景 / 工作经历 / 项目经历]
-- [可按时间顺序或主题顺序组织]
+## Product Manager ~ Tiktok
 
-## Focus
+New grad hiring
 
-- [关注方向待填写]
-- [可放产品 / AI / 技术 / 商业 / 用户研究等]
-- [也可以改成 Skills / Interests / Research 等更适合你的命名]
+## AI Product Manager ~ Baidu
 
-## Contact
+- Led AI product work for Gravity, SynClub, and overseas advertising, covering AIGC creation agents, AI galgame, and AI comic features.
+- Drove growth strategy, user research, and channel expansion, helping define the products' mid- to long-term direction.
+- Built an AI ad generation and tracking tool that reduced content cost by 95% under the same acquisition budget.
+- Improved conversion rate by 9% and supported internal prioritization and operational efficiency.
 
-- GitHub: [github.com/yzysimpleabs](https://github.com/yzysimpleabs)
-- Email: [justiceyan929@gmail.com](mailto:justiceyan929@gmail.com)
-- LinkedIn: [待填写]（https://www.linkedin.com/in/william-yang-758936304/）
-- 其他链接: [待填写]
+## Product Manager ~ Microsoft
 
-## Resume
+- Incubated PM Studio from 0 to 1 for Microsoft product teams, integrating 13+ data sources for a 100+ person organization.
+- Built a natural-language-to-SQL system with 99% query accuracy and automated OCV feedback processing with LLMs.
+- Reduced recurring PM tasks from 2 hours to 10 minutes and saved 800+ hours of work per week.
+- Generated 8+ actionable requests for the Edge team and helped define a cross-platform MCP-based architecture integrated with Teams, Outlook, and Microsoft Graph.
 
-- [简历链接待填写]
-- [可放在线简历 / PDF / Notion / 飞书文档等]
+## AI Agent Engineer ~ SFC Ltd.
+
+- Built multimodal AI agents for cross-border e-commerce SKU extraction, improving on vision-only solutions that typically delivered under 90% accuracy.
+- Designed a rule-driven LLM pipeline for extraction and listing automation in furniture and home appliance categories.
+- Expanded a 1k low-quality dataset into 80k usable samples and achieved 97% accuracy on production test sets.
+- Contributed to PromptLuv, which outperformed mainstream prompt optimization frameworks by 2% on GSM8K, and reproduced GRPO in multimodal settings.
+
+## Product Engineer ~ Shudaxian Ltd.
+
+- Designed and developed online education products for postgraduate entrance exam candidates.
+- Integrated AI-driven optimizations into existing course products to improve learning efficiency.
+- Supported product growth through feature design and iteration.
+- Delivered measurable business impact, including MAU +37% and LTV +20%.
+
+# Focus
+
+## AI Agent
+
+Coming soon
+
+## LLM
+
+Coming soon
+
+## Business Model
+
+Coming soon
+
+</div>
+
+
