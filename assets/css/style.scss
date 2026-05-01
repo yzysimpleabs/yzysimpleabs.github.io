@@ -12,11 +12,12 @@ body,
 .post h1,
 .post h2,
 .post h3 {
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: "Adobe Garamond Pro", Garamond, Georgia, "Times New Roman", serif;
 }
 
 body {
   font-size: 15px;
+  font-weight: 300;
 }
 
 .content .post-container {
@@ -57,16 +58,19 @@ body {
 
 .about h2 {
   margin-top: 0;
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .about .tagline {
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 13px;
+  line-height: 1.8;
+  font-weight: 300;
+  white-space: pre-line;
 }
 
 .social li i {
-  font-size: 30px;
+  font-size: 28px;
 }
 
 @media screen and (max-width: 768px) {

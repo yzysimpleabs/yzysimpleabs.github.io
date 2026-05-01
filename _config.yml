@@ -19,11 +19,14 @@ kramdown:
 
 author:
   name: "Zhiyuan Yang"
-  bio: "产品经理，产品工程师，关注 AI 和商业模式"
+  bio: "Product Manager and Engineer"
 
 plainwhite:
   name: "Zhiyuan Yang"
-  tagline: ""
+  tagline: |
+    Product Manager and Engineer
+
+    justiceyan929@gmail.com
   date_format: "%Y-%m-%d"
   html_lang: "zh-CN"
   search: false
@@ -35,7 +38,6 @@ plainwhite:
   social_links:
     github: yzysimpleabs
     linkedIn: in/william-yang-758936304
-    email: justiceyan929@gmail.com
 
 plugins:
   - jekyll-remote-theme
