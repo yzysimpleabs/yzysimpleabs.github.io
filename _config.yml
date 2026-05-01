@@ -1,6 +1,6 @@
-title: "我的博客"
+title: "yzysimpleabs"
 email: ""
-description: "这是一个基于 GitHub Pages + Jekyll 的个人博客。"
+description: "一名 CS 背景产品经理的博客，记录产品思考、方法论、读书笔记与技术观察。"
 baseurl: ""
 url: "https://yzysimpleabs.github.io"
 
@@ -10,12 +10,22 @@ lang: "zh-CN"
 timezone: "Asia/Shanghai"
 
 permalink: /:year/:month/:day/:title/
+show_excerpts: true
 
 markdown: kramdown
 highlighter: rouge
 
 kramdown:
   input: kramdown
+
+author:
+  name: "yzysimpleabs"
+  bio: "CS 背景产品经理，关注产品方法论、AI、技术与商业。"
+
+header_pages:
+  - index.md
+  - blog.md
+  - about.md
 
 plugins:
   - jekyll-feed
