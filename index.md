@@ -12,6 +12,7 @@ I am an AI Product Manager with a CS background. My work sits at the intersectio
 ---
 
 # Experience
+
 ## Product Manager ~Tiktok
 
 New grad hiring
@@ -42,6 +43,7 @@ MAU +37% and LTV +20%.
 
 
 # Focus
+
 ## AI Agent
 
 Coming soon
