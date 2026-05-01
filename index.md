@@ -3,9 +3,9 @@ layout: page
 title: ""
 ---
 
-# [一句话身份介绍待填写]
+## About
 
-[一段个人简介待填写。这里用于介绍你是谁、你目前的角色、你的背景，以及你主要关注的问题。]
+I am an AI Product Manager. My focus areas include AI products themselves, AI Agents, Large Language Models, business models, and internet product strategy. I possess experience in the entire product lifecycle—from design and development to launch—as well as in successfully establishing and validating commercial closed loops across sectors such as online education, AI productivity tools, and AI gaming.
 
 ---
 
@@ -23,9 +23,9 @@ title: ""
 
 ## Contact
 
-- GitHub: [待填写]
-- Email: [待填写]
-- LinkedIn: [待填写]
+- GitHub: [github.com/yzysimpleabs](https://github.com/yzysimpleabs)
+- Email: [justiceyan929@gmail.com](mailto:justiceyan929@gmail.com)
+- LinkedIn: [待填写]（https://www.linkedin.com/in/william-yang-758936304/）
 - 其他链接: [待填写]
 
 ## Resume
