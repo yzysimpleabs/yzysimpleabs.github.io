@@ -29,7 +29,7 @@ body,
 // - font-size: default text size across the page.
 // - font-weight: overall text thickness; 300 makes it look lighter.
 body {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
 }
 
@@ -43,8 +43,8 @@ body {
 // - padding-left: removes the theme's default left indent.
 .content .post-container {
   width: 100%;
-  max-width: 41rem;
-  margin: 42px auto;
+  max-width: 38rem;
+  margin: 36px auto;
   padding-left: 0;
 }
 
@@ -52,15 +52,15 @@ body {
 // - font-size: body text size in the main content area.
 // - line-height: controls line spacing for readability.
 .content .post {
-  font-size: 15px;
-  line-height: 1.78;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 // First-level heading in the content area.
 // - font-size: size of page section titles like "About" / "Experience".
 // - line-height: spacing within wrapped heading lines.
 .post h1 {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   line-height: 1.25;
 }
 
@@ -69,16 +69,16 @@ body {
 // - line-height: wrapped heading spacing.
 // - margin-top: vertical gap before each new subsection.
 .post h2 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.35;
-  margin-top: 2rem;
+  margin-top: 1.7rem;
 }
 
 // Paragraphs and list items in the content area.
 // - line-height: increases vertical spacing for easier long-form reading.
 .post p,
 .post li {
-  line-height: 1.85;
+  line-height: 1.72;
 }
 
 // List indentation in the content area.
@@ -96,14 +96,19 @@ body {
   display: none !important;
 }
 
+.about {
+  min-width: 190px;
+}
+
 // Name block in the left sidebar.
 // - margin-top: removes extra top spacing above the name.
 // - font-size: displayed size of your name.
 // - font-weight: makes the name slightly stronger than body text.
 .about h2 {
   margin-top: 0;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
+  text-align: center;
 }
 
 // Sidebar bio/tagline block under the name.
@@ -112,10 +117,13 @@ body {
 // - font-weight: keeps the bio visually light.
 // - white-space: preserves manual line breaks from _config.yml tagline.
 .about .tagline {
-  font-size: 13px;
-  line-height: 1.8;
+  max-width: 180px;
+  font-size: 12px;
+  line-height: 1.65;
   font-weight: 300;
   white-space: pre-line;
+  text-align: center;
+  color: #777;
 }
 
 // =========================
@@ -124,7 +132,11 @@ body {
 // Social/contact icons in the left sidebar.
 // - font-size: icon size for GitHub / LinkedIn links.
 .social li i {
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.social a {
+  margin: 0 6px;
 }
 
 // =========================
@@ -136,7 +148,7 @@ body {
   // Let content use full width on small screens.
   .content .post-container {
     max-width: 100%;
-    margin: 24px 0;
+    margin: 20px 0;
   }
 
   // Slightly smaller body text on mobile.
@@ -146,11 +158,11 @@ body {
 
   // Smaller top-level headings on mobile.
   .post h1 {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
   }
 
   // Smaller subsection headings on mobile.
   .post h2 {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }

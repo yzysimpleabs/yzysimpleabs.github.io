@@ -1,5 +1,7 @@
-***
-
+---
+layout: page
+title: ""
+---
 
 <div class="page-narrow" markdown="1">
 
@@ -7,7 +9,7 @@
 
 I am an AI Product Manager with a CS background. My work sits at the intersection of AI products, agent systems, business models, and internet product strategy, with experience across product design, launch, growth, and commercial validation.
 
-***
+---
 
 # Experience
 
