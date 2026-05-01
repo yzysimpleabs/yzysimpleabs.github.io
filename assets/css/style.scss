@@ -3,33 +3,87 @@
 
 @import "plain";
 
-.page-narrow {
-  max-width: 42rem;
+body,
+.about,
+.post,
+.navigation a,
+.about .tagline,
+.about h2,
+.post h1,
+.post h2,
+.post h3 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
-.page-narrow p,
-.page-narrow li {
+body {
+  font-size: 15px;
+}
+
+.content .post-container {
+  width: 100%;
+  max-width: 41rem;
+  margin: 42px auto;
+  padding-left: 0;
+}
+
+.content .post {
+  font-size: 15px;
+  line-height: 1.78;
+}
+
+.post h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+}
+
+.post h2 {
+  font-size: 1.2rem;
+  line-height: 1.35;
+  margin-top: 2rem;
+}
+
+.post p,
+.post li {
   line-height: 1.85;
 }
 
-.page-narrow h1 {
-  margin-bottom: 1rem;
-}
-
-.page-narrow h2 {
-  margin-top: 2.2rem;
-}
-
-.page-narrow h2 + ul,
-.page-narrow h2 + p {
-  margin-top: 0.75rem;
-}
-
-.page-narrow ul {
+.post ul {
   padding-left: 1.2rem;
 }
 
-.author-profile img[src=""],
-.author-profile img:not([src]) {
-  display: none;
+.about .about-title img {
+  display: none !important;
+}
+
+.about h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.about .tagline {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.social li i {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .content .post-container {
+    max-width: 100%;
+    margin: 24px 0;
+  }
+
+  .content .post {
+    font-size: 14px;
+  }
+
+  .post h1 {
+    font-size: 1.6rem;
+  }
+
+  .post h2 {
+    font-size: 1.1rem;
+  }
 }
