@@ -12,7 +12,6 @@ I am an AI Product Manager with a CS background. My work sits at the intersectio
 ---
 
 # Experience
-
 ## Product Manager ~Tiktok
 
 New grad hiring
@@ -35,14 +34,14 @@ Built multimodal AI agents for cross-border e-commerce SKU extraction, improving
 
 Contributed to PromptLuv, which outperformed mainstream prompt optimization frameworks by 2% on GSM8K, and reproduced GRPO in multimodal settings.
 
-## Product Engineer \~ Shudaxian Ltd.
+## Product Engineer ~Shudaxian Ltd.
 
 Designed and developed online education products for postgraduate entrance exam candidates. Integrated the AI-driven optimizations into existing course products to improve learning efficiency.
 
 MAU +37% and LTV +20%.
 
-# Focus
 
+# Focus
 ## AI Agent
 
 Coming soon
@@ -51,7 +50,7 @@ Coming soon
 
 Coming soon
 
-## Business Model
+## Business
 
 Coming soon
 
