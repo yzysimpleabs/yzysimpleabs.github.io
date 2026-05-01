@@ -1,8 +1,5 @@
 ***
 
-layout: page
-title: ""
----------
 
 <div class="page-narrow" markdown="1">
 
