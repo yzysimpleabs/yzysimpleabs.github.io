@@ -24,7 +24,6 @@ author:
 plainwhite:
   name: "Zhiyuan Yang"
   tagline: ""
-  portfolio_image:
   date_format: "%Y-%m-%d"
   html_lang: "zh-CN"
   search: false

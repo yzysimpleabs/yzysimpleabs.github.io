@@ -1,0 +1,35 @@
+---
+---
+
+@import "plainwhite";
+
+.page-narrow {
+  max-width: 42rem;
+}
+
+.page-narrow p,
+.page-narrow li {
+  line-height: 1.85;
+}
+
+.page-narrow h1 {
+  margin-bottom: 1rem;
+}
+
+.page-narrow h2 {
+  margin-top: 2.2rem;
+}
+
+.page-narrow h2 + ul,
+.page-narrow h2 + p {
+  margin-top: 0.75rem;
+}
+
+.page-narrow ul {
+  padding-left: 1.2rem;
+}
+
+.author-profile img[src=""],
+.author-profile img:not([src]) {
+  display: none;
+}

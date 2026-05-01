@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-<div class="page-narrow">
+<div class="page-narrow" markdown="1">
 
 # About
 
@@ -60,5 +60,4 @@ Coming soon
 Coming soon
 
 </div>
-
 
