@@ -3,8 +3,7 @@ email: ""
 description: "一名 CS 背景产品经理的博客，记录产品思考、方法论、读书笔记与技术观察。"
 baseurl: ""
 url: "https://yzysimpleabs.github.io"
-
-theme: minima
+remote_theme: samarsault/plainwhite-jekyll
 
 lang: "zh-CN"
 timezone: "Asia/Shanghai"
@@ -22,10 +21,25 @@ author:
   name: "yzysimpleabs"
   bio: "CS 背景产品经理，关注产品方法论、AI、技术与商业。"
 
-header_pages:
-  - index.md
-  - blog.md
-  - about.md
+plainwhite:
+  name: "yzysimpleabs"
+  tagline: "CS 背景产品经理"
+  date_format: "%Y-%m-%d"
+  html_lang: "zh-CN"
+  search: false
+  dark_mode: false
+  condensed_mobile:
+    - home
+    - page
+    - post
+  navigation:
+    - title: 首页
+      url: "/"
+    - title: 博客
+      url: "/blog/"
+    - title: 关于
+      url: "/about/"
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
