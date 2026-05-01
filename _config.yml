@@ -1,6 +1,6 @@
 title: "yzysimpleabs"
 email: ""
-description: "一名 CS 背景产品经理的博客，记录产品思考、方法论、读书笔记与技术观察。"
+description: "CS 背景产品经理个人主页。"
 baseurl: ""
 url: "https://yzysimpleabs.github.io"
 remote_theme: samarsault/plainwhite-jekyll
@@ -9,7 +9,7 @@ lang: "zh-CN"
 timezone: "Asia/Shanghai"
 
 permalink: /:year/:month/:day/:title/
-show_excerpts: true
+show_excerpts: false
 
 markdown: kramdown
 highlighter: rouge
@@ -19,7 +19,7 @@ kramdown:
 
 author:
   name: "yzysimpleabs"
-  bio: "CS 背景产品经理，关注产品方法论、AI、技术与商业。"
+  bio: "CS 背景产品经理。"
 
 plainwhite:
   name: "yzysimpleabs"
@@ -32,13 +32,8 @@ plainwhite:
     - home
     - page
     - post
-  navigation:
-    - title: 首页
-      url: "/"
-    - title: 博客
-      url: "/blog/"
-    - title: 关于
-      url: "/about/"
+  social_links:
+    github: yzysimpleabs
 
 plugins:
   - jekyll-remote-theme
