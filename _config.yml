@@ -18,11 +18,11 @@ kramdown:
   input: kramdown
 
 author:
-  name: "yzysimpleabs"
+  name: "Zhiyuan Yang"
   bio: "CS 背景产品经理。"
 
 plainwhite:
-  name: "yzysimpleabs"
+  name: "Zhiyuan Yang"
   tagline: "CS 背景产品经理"
   date_format: "%Y-%m-%d"
   html_lang: "zh-CN"
